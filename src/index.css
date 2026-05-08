@@ -1,0 +1,69 @@
+:root {
+  --primary: #ff1f44;
+  --dark: #121212;
+  --light: #ffffff;
+  --gray: #f5f5f5;
+  --text-dim: #888888;
+  --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+  /* Type Colors */
+  --fire: #ff9d55;
+  --water: #5090d6;
+  --grass: #63bc5a;
+  --electric: #f4d23c;
+  --psychic: #fa7179;
+  --ice: #73cec0;
+  --dragon: #0b6dc3;
+  --dark-type: #5a5366;
+  --fairy: #ec8fe6;
+  --normal: #919aa2;
+  --fighting: #ce416b;
+  --flying: #8fa9de;
+  --poison: #aa6bc8;
+  --ground: #d97845;
+  --rock: #c5b78c;
+  --bug: #91c12f;
+  --ghost: #5269ad;
+  --steel: #5a8ea2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--dark);
+  color: var(--light);
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
